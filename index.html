@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- tab icon -->
+    <link rel="shortcut icon" href="images/camera.png" type="image/x-icon">
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900&display=swap"
+      rel="stylesheet"/>
+    <!-- bootstrap -->
+   <link rel="stylesheet" href="./css/bootstrap.min.css">
+   <link rel="stylesheet" href="./css/main.css">
+    <title>bookmarker</title>
+  </head>
+  <body >
+    
+
+    <div class="row ">
+      <div class="col-sm-4 col-md-8 col-lg-10 m-auto w-75 p-5 d-flex justify-content-center flex-column ">
+        <div class="text m-auto mb-3">
+          <h1>bookmarker</h1>  
+        </div>
+        <hr>
+        <div class="form-text m-auto mb-4 ">
+          <h2><i class="fa-solid fa-bookmark"></i> Bookmark your favorite sites <i class="fa-solid fa-bookmark"></i></h2>  
+        </div>
+
+        <label for="fn"><i class="fa-regular fa-floppy-disk" ></i> Site Name</label>
+        <input type="text " class="form-control mb-3 " id="fn" placeholder="Bookmark Name">
+        <label for="ln"><i class="fa-solid fa-link" ></i> Site URL</label>
+        <input type="text " class="form-control mb-3 " id="fl" placeholder="Weabsite URL">
+        <div class="w-50 m-auto d-flex justify-content-around">
+          <button class="btn btn-danger w-25 mt-4 m-auto">Add</button>
+          <button class="btn btn-outline-primary w-25 mt-4 m-auto">Clear</button>
+        </div>
+
+        <input type="search"   class="form-control my-3 " placeholder="Search...">
+      
+        <hr>
+        
+        <table class="table table-hover table-striped table-responsive-sm table-responsive-md">
+          <thead>
+            <tr>
+              <th>Index</th>
+              <th>Website Name</th>
+              <th>Visit</th>
+              <th>Delete</th>
+              <th>Update</th>
+            </tr>
+            <tbody>
+            </tbody>
+          </thead>
+        </table>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

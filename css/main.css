@@ -1,0 +1,50 @@
+body{
+    background-color: #F7ECDE;
+}
+
+.text{
+    position: relative;
+}
+.text::after{
+content: "";
+position: absolute;
+bottom:20%;
+left: 0;
+width: 100%;
+height: 15px;
+background-color: #FEC260;
+z-index: -1;
+transition: all .5s;
+
+}
+.text:hover.text::after{
+    height: 25px;
+}
+hr{
+
+    border: 1px dotted black;
+    margin-block: 30px;
+}
+.form-text{
+        font-size: 25px;
+        background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.form-control:focus {
+    color: #212529 !important;
+    background-color: #fff !important;
+    border-color: #d99c39 !important;
+    outline: 0 !important;
+    box-shadow: 0 0 0 0.25rem #fec26055 !important;
+}
+table{
+    visibility: hidden;
+   
+}
+a{
+    text-decoration: none;
+    color: #F7ECDE;
+}
+
+
